@@ -45,7 +45,7 @@ public class RegisterRequest {
     private String mobile;
 
     @Size(min = 4, max = 10, message = "Invalid Role: Must be of 4 - 10 characters")
-    private String role;
+    private String roles;
 
     @NotBlank(message = "Invalid Password: Empty name")
     @Size(min = 8, max = 30, message = "Invalid Password: Must be of 8 - 30 characters")

@@ -39,7 +39,7 @@ public class AuthenticationService {
                 .address2(registerRequest.getAddress2())
                 .alternateMobile(registerRequest.getAlternateMobile())
                 .mobile(registerRequest.getMobile())
-                .roles(registerRequest.getRole())
+                .roles(registerRequest.getRoles())
                 .firstName(registerRequest.getFirstName())
                 .lastName(registerRequest.getLastName())
                 .pincode(registerRequest.getPincode())
