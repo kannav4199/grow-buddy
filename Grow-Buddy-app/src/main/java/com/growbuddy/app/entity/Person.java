@@ -50,7 +50,7 @@ public class Person {
     @NotBlank(message = "Mother Name is mandatory")
     private String motherName;
     private String adhaarNo;
-
+    private String rollNo;
     @Column(name="created_date", columnDefinition="TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private Date date;
 

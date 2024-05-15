@@ -27,10 +27,11 @@ public class GrowBuddyAppApplication {
 				user1.setMobile("8882775498");
                 user1.setFatherName("PAPA");
                 user1.setMotherName("MOM");
+				user1.setRoles("USER");
 				user1.setPassword(passwordEncoder.encode("Password"));
 
 
-			Person user2 = Person.builder().state("Delhi").pincode("110059").address1("b2 kiran garden").firstName("Pranav").email("pranav@gmail.com").mobile("9992889333").fatherName("papa").motherName("ma").password(passwordEncoder.encode("Password1")).build();
+			Person user2 = Person.builder().state("Delhi").pincode("110059").roles("USER").address1("b2 kiran garden").firstName("Pranav").email("pranav@gmail.com").mobile("9992889333").fatherName("papa").motherName("ma").password(passwordEncoder.encode("Password1")).build();
 
 			userRepository.save(user1);
 			userRepository.save(user2);
